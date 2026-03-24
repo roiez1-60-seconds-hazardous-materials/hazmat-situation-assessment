@@ -1,7 +1,6 @@
 'use client'
 
 import { useState } from 'react'
-import Image from 'next/image'
 import { 
   Shield, 
   Eye, 
@@ -96,13 +95,12 @@ export default function HomePage() {
       <header className="text-center pt-12 pb-8 fade-in">
         <div className="flex justify-center mb-6">
           <div className="w-32 h-32 rounded-full glass-effect flex items-center justify-center p-4">
-            <Image
+            <img
               src="/logo.jpg"
               alt="כבאות והצלה לישראל"
-              width={96}
-              height={96}
+              width="96"
+              height="96"
               className="rounded-full"
-              priority
             />
           </div>
         </div>
